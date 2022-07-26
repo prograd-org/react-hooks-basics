@@ -1,0 +1,24 @@
+#first {
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+
+#first:active {
+    background: linear-gradient(180deg, #62e5e9, #2f45ab);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
